@@ -14,4 +14,7 @@ def processing(request):
     # Vectoriza la imagen
     a,l,c=tuple(imagen.shape)
     pix=np.reshape(imagen,(a*l,c))
-    return pix#HttpResponse(pix)
+    model=KMeans(5,random_state=42).fit(pix)
+    palette=np.uint8(model.cluster_centers_)
+    
+    return HttpResponse(palette)

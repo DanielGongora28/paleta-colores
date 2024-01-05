@@ -15,15 +15,14 @@ Including another URLconf
     2. Add a URL to urlpatterns:  path('blog/', include('blog.urls'))
 """
 from django.contrib import admin
-from django.urls import path
+from django.urls import path, include
 import pandas as pd
 import numpy as np
 from sklearn.cluster import KMeans
 import cv2
 import matplotlib.pyplot as plt
-from modelokm.views import processing
+
 
 urlpatterns = [
-    path('admin/', admin.site.urls),
-    path('', processing)
+    path('', include('modelokm.urls'))
 ]
