@@ -14,4 +14,4 @@ def processing(request):
     # Vectoriza la imagen
     a,l,c=tuple(imagen.shape)
     pix=np.reshape(imagen,(a*l,c))
-    return HttpResponse(pix)
+    return pix#HttpResponse(pix)
