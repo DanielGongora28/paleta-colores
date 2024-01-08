@@ -1,8 +1,7 @@
 # paleta-colores
 Personal Project, Working on it🚧🚧🚧🚧
 
-The main idea is get de color palette of an image using KMeans clustering algorithm
-Actually learning django to develop this project and using Html and css for the frontend.
+The main idea is get de color palette of an image using KMeans clustering algorithm, using Streamlit for the front.
 
 Learning about:
 
