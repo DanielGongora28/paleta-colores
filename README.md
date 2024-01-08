@@ -6,6 +6,5 @@ Actually learning django to develop this project and using Html and css for the 
 
 Learning about:
 
-<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/>
-<img src='https://th.bing.com/th/id/OIP.vcpaD7zgpUiaa_mP21iVSwHaDW?rs=1&pid=ImgDetMain' alt='streamlit' width='40' height='40'/>
+<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/><img src='https://seeklogo.com/images/S/streamlit-logo-1A3B208AE4-seeklogo.com.png' alt='streamlit' width='60' height='40'/>
 
